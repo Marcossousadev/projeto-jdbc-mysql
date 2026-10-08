@@ -89,7 +89,7 @@ Isso evita que a aplicação precise conhecer diretamente os detalhes de criaç�
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/Marcossousadev/NOME-DO-REPOSITORIO.git
+git clone https://github.com/Marcossousadev/projeto-jdbc-mysql.git
 ```
 
 ### 2. Configure o banco de dados
