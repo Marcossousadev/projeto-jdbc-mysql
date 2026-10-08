@@ -102,6 +102,18 @@ CREATE DATABASE dbaula;
 
 Depois, crie a tabela utilizada pela aplicação.
 
+```sql
+CREATE TABLE personas (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    lastname VARCHAR(255),
+    middlename VARCHAR(255),
+    fullname VARCHAR(255),
+    salary FLOAT,
+    age INTEGER
+);
+```
+
 ### 3. Configure as credenciais
 
 Configure no projeto, no arquivo db.properties:
